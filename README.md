@@ -1,2 +1,2 @@
 # Megatown
-Create for MEGA Hackathon 2025
+Created for MEGA Hackathon 2025
