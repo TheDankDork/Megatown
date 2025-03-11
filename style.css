@@ -1,0 +1,58 @@
+.start_button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: black;
+    background-color: brown;
+    text-decoration: none;
+}
+
+#main_game {
+    margin: 1em;
+    border-radius: 10em;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+}
+
+.column {
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    outline: 2px solid silver;
+}
+
+#actions {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.row {
+    height: 200px;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+
+    display: flex;
+    align-items: center;
+}
+
+.action_button {
+    font-size: xx-large;
+    height: 100%;
+    flex-grow: 1;
+    margin: 0.5em;
+}
+
+#cash_display {
+    font-size: 35px;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 0.5em;
+    border: 0.2em;
+    border-color: rgb(60, 255, 0);
+    border-style: solid;
+    border-radius: 20px;
+}
